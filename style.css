@@ -1,0 +1,16 @@
+:root{--bg1:#071021;--bg2:#0f1724;--accent:#00e5ff;--gold:#ffd166}
+*{box-sizing:border-box}body{margin:0;font-family:'Poppins',sans-serif;background:linear-gradient(135deg,var(--bg1),var(--bg2));color:#e6eef8}
+.bg{position:fixed;inset:0;background-image:radial-gradient(circle at 20% 10%, rgba(0,229,255,0.06), transparent 10%), radial-gradient(circle at 80% 90%, rgba(255,209,102,0.03), transparent 20%);filter:blur(12px);pointer-events:none}
+.welcome{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;text-align:center;padding:40px}
+.main-title{font-family:'Orbitron',sans-serif;font-size:56px;color:var(--gold);margin:0} .quote{color:#bcd9ff;margin-top:12px;font-size:18px;max-width:800px}
+.cta{margin-top:24px;display:flex;gap:12px}
+.btn{background:linear-gradient(90deg,var(--accent),#6effc8);color:#001220;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:700}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:#cfefff}
+.container{max-width:1000px;margin:60px auto;padding:20px}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:12px}
+.flex{display:flex;gap:20px;align-items:flex-start}
+.panel{background:rgba(255,255,255,0.02);padding:14px;border-radius:10px;min-width:260px}
+.small{padding:8px 12px;border-radius:8px}.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06)}
+.nav{display:flex;justify-content:space-between;margin-top:18px}#qopts{display:flex;flex-direction:column;gap:10px;margin-top:12px}
+.opt{padding:12px;border-radius:10px;background:rgba(255,255,255,0.02);cursor:pointer;border:1px solid transparent}.opt:hover{border-color:rgba(0,229,255,0.12);transform:translateY(-3px)}
+#collegeList ul{list-style:none;padding-left:0}@media(max-width:800px){.flex{flex-direction:column}}

@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Results - Dream Drift</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"><script src="https://cdn.jsdelivr.net/npm/chart.js"></script></head>
+<body><div class="container"><h2>Your Recommended Courses</h2><div class="flex"><canvas id="courseChart" width="600" height="300"></canvas><div id="details" class="panel"><h3 id="topCourse">Top Course</h3><p id="desc">Click a bar to see best colleges.</p><div id="collegeList"></div></div></div><div id="roadmapArea" class="panel"></div><div style="margin-top:20px"><a class="btn" href="/">Back to Home</a></div></div><script src="{{ url_for('static', filename='js/main.js') }}"></script></body></html>
